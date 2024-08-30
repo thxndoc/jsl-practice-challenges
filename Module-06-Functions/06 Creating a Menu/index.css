@@ -1,0 +1,53 @@
+/* Reset default margin and padding for better control */
+body, ul, li, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and center the content */
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center vertically and horizontally */
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the restaurant title */
+#restaurant-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f8312f; /* Fun and exciting text color */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive; /* Use a script font */
+}
+
+/* Style the menu container */
+#menu {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the dessert list items */
+#menu li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5733; /* Fun and exciting text color */
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Intricate typography */
+}
+
+/* Add a hover effect for extra excitement */
+#menu li:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    color: #ff0000; /* Bold and dynamic color change on hover */
+}

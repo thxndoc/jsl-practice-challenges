@@ -1,0 +1,47 @@
+/* Reset some basic elements for consistency */
+body, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #1a1a2e; /* Dark blue background for contrast */
+    color: #e1ad01; /* Yellow text to match the X-Men theme */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#content {
+    text-align: center;
+    border: 3px solid #e1ad01; /* Yellow border for the content box */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #16213e; /* Slightly lighter blue for the content box */
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #0f3460; /* Even lighter blue for individual character entries */
+    border-radius: 5px;
+    border: 2px solid #e1ad01; /* Yellow border for each character */
+    transition: transform 0.2s ease-in-out;
+}
+
+p:hover {
+    transform: scale(1.05); /* Slight scale on hover for interactive effect */
+    cursor: pointer;
+}
+
+/* Add some custom styles for the title */
+h1 {
+    color: #e1ad01; /* Yellow color for the title */
+    margin-bottom: 20px; /* Space out the title from the character list */
+}

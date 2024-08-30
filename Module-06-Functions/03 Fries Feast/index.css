@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+}
+
+#friesType, #topping, #submitOrder {
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#orderSummary {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
