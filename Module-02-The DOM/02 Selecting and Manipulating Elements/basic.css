@@ -1,0 +1,26 @@
+/* Lesson 6: CSS Manipulation via JavaScript */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Basic styles for layout */
+button {
+    margin: 5px;
+    padding: 10px;
+}
+
+input[type="text"] {
+    margin: 5px;
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Additional styling can be added as needed */

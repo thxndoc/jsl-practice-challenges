@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #333366; /* Dark blue */
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #e7f5fe;
+    color: #333;
+    border: 1px solid #b3d4fc;
+    display: inline-block;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+/* Emojis */
+#petForm:before {
+    content: '🐾'; /* Paw prints emoji */
+    font-size: 30px;
+}
+
+#result:before {
+    content: '🔍'; /* Magnifying glass emoji */
+    font-size: 30px;
+}
