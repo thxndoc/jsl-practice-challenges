@@ -6,7 +6,7 @@ For ease of reference we have included the direct links to each JSL Module's pla
 
 ✏️ **Note** that these practice challenges are coding exercises **not video** content. This means that these Scrims will not play rather you will need to code along with the written instructions. So you will jump into the instructions and solve the problem according to the instructions in the exercise brief. For example (see image) you will see the instructions in the left hand panel labelled 'instructions.md'. 
 
-🚨 Also **Note** Scrimba has upgraded to a shiny new version of their platform. You may have experienced an issue where the links are directing you to the wrong page for each practice exercise. While they move our Scrims across to the new V2 platform, **for each of these practice exercises, you will be directed to Scrimba V1. So you will plau around and code along with the exercises on the V1 platform.**  You are also welcome to download these exercises into your VSCode.
+🚨 Also **Note** Scrimba has upgraded to a shiny new version of their platform. You may have experienced an issue where the links are directing you to the wrong page for each practice exercise. While they move our Scrims across to the new V2 platform, **for each of these practice exercises, you will be directed to Scrimba V1. So you will play around and code along with the exercises on the V1 platform.**  You are also welcome to use this repo to clone these exercises and code along in VSCode.
 
 ![alt text](instructions.png)
 
