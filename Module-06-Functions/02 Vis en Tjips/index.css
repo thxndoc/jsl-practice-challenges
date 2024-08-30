@@ -20,8 +20,9 @@ body {
 
 /* Style the h1 element */
 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
     color: white; /* Change text color to white */
 }

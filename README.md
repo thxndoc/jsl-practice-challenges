@@ -10,7 +10,7 @@ For ease of reference we have included the direct links to each JSL Module's pla
 
 ![alt text](instructions.png)
 
-
+- The JavaScript Language [JSL]: Module 1 (Syntax) - [Link](https://v1.scrimba.com/playlist/pqPae6ZH7)
 - The JavaScript Language [JSL]: Module 2 (The DOM) - [Link](https://v1.scrimba.com/playlist/pwVxGLDUW)
 - The JavaScript Language [JSL]: Module 3 (Programming Paradigms | Optional) - [Link](https://v1.scrimba.com/playlist/pQdZzYkC3)
 - The JavaScript Language [JSL]: Module 4 (Control Flow) - [Link](https://v1.scrimba.com/playlist/p9bvd5QH3)

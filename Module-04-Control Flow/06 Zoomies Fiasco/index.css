@@ -21,8 +21,9 @@ h1 {
     background-clip: text;
     color: transparent;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
