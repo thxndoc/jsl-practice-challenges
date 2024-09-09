@@ -2,11 +2,11 @@
 
 // Step 1: Create an array named myFavoriteMovies and populate it with the titles of five movies you enjoy.
 let myFavoriteMovies = [
-    "Movie 1",
-    "Movie 2",
-    "Movie 3",
-    "Movie 4",
-    "Movie 5"
+    "White Chicks",
+    "Top Gun: Maverick",
+    "Avengers",
+    "Black Panther",
+    "Fantastic Beasts"
 ];
 
 // Step 2: Access the first and the last movie from your myFavoriteMovies array.
