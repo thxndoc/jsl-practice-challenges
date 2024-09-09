@@ -10,7 +10,8 @@ let myFavoriteMovies = [
 ];
 
 // Step 2: Access the first and the last movie from your myFavoriteMovies array.
-
+let firstMovie = myFavoriteMovies[0];
+let lastMovie = myFavoriteMovies[4];
 
 // Display the first and the last movie on the web page.
 function displayMovies() {
