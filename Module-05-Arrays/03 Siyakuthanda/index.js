@@ -12,6 +12,10 @@ let actorsList = [
 ];
 
 // Task 1: Create a new array `actorNames` that contains only the names of the actors using the `map` method.
-
+let actorNames =  actorsList.map(actor => actor.name);
+console.log(actorNames);
 
 // Task 2: Use the `filter` method to create a new array `africanActors` that contains only the actors from Africa.
+let africanActors = actorsList.filter(actor => actor.fromAfrica);
+console.log(africanActors);
+
