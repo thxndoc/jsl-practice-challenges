@@ -46,7 +46,7 @@ function randomMovieQuote(movieArray) {
         const quote = getRandomMovieQuote();
 
         // Log movie title, year, and the random quote
-        console.log(`Movie: ${title}, ${year}`);
+        console.log(`Movie: ${title}, (${year})`);
         console.log(`Quote: "${quote}"\n`);
         }
     }
