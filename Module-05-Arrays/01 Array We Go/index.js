@@ -3,10 +3,10 @@
 // Step 1: Create an array named myFavoriteMovies and populate it with the titles of five movies you enjoy.
 let myFavoriteMovies = [
     "White Chicks",
-    "Top Gun: Maverick",
+    "Fantastic Beasts",
     "Avengers",
     "Black Panther",
-    "Fantastic Beasts"
+    "Top Gun - Maverick"
 ]; //remember that arrays are represented as strings
 
 // Step 2: Access the first and the last movie from your myFavoriteMovies array.
@@ -20,13 +20,17 @@ let lastMovie = myFavoriteMovies[myFavoriteMovies.length - 1];
 // Display the first and the last movie on the web page.
 function displayMovies() {
     // Use document.getElementById to find the movies div.
-   let movies = document.getElementById('movies')
+   let moviesDiv = document.getElementById('movies');
 
     // Create and append the first movie title.
-    let firstMovieElement = document.createElement('p')
-    console.log(firstMovieElement)
+    let firstMovieElement = document.createElement('p');
+    firstMovieElement.textContent = `First movie: ${firstMovie}`;
+    moviesDiv.appendChild(firstMovieElement);
 
     // Create and append the last movie title.
+    let lastMovieElement = document.createElement('p');
+    lastMovieElement.textContent = `Last movie: ${lastMovie}`;
+    moviesDiv.appendChild(lastMovieElement);
 
 }
 
