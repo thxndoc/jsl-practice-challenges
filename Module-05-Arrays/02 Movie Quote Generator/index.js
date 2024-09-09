@@ -40,14 +40,16 @@ function randomMovieQuote(movieArray) {
     // Loop through the movieArray
     for (const movie of movieArray) {
         // Destructure the movie object to extract title and year attributes
-        const { title, year } = movie;
+        const {title, year} = movie;
 
         // Call getRandomMovieQuote to get a random movie quote
         const quote = getRandomMovieQuote();
 
         // Log movie title, year, and the random quote
-
+        console.log(`Movie: ${title}, ${year}`);
+        console.log(`Quote: "${quote}"\n`);
         }
     }
 
 // Call the randomMovieQuote function and pass the movies array as an argument to demonstrate the functionality
+randomMovieQuote(movies);
