@@ -1,4 +1,4 @@
-## Parameters:
+## Parameters
 Parameters define what a function expects to receive, while arguments are the actual values given to the function when it's called.
 ```JavaScript
 // Function definition with two parameters: 'name' and 'age'
@@ -15,3 +15,9 @@ The function **introduceUser** is defined with two parameters: name and age.
 When we call the function, we pass two arguments: "Emily" and 28.
 The argument "Emily" is assigned to the parameter name, and 28 is assigned to age.
 The function then uses these values to create and log the introduction message.
+
+## Naming a function
+Start with a verb: Since functions do something, it's a good practice to start their names with a verb.
+```JavaScript
+function visitNewCountry() { ... }
+```

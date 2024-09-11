@@ -38,3 +38,5 @@ document.getElementById("journeyForm").addEventListener("submit", function(event
   // Call the displayDestination function with the form values as arguments
   displayDestination(country, dish, distance);
 });
+
+
