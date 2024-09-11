@@ -21,7 +21,7 @@ let lastMovie = myFavoriteMovies[myFavoriteMovies.length - 1];
 function displayMovies() {
     // Use document.getElementById to find the movies div.
    let moviesDiv = document.getElementById('movies');
-
+   console.log(moviesDiv)
     // Create and append the first movie title.
     let firstMovieElement = document.createElement('p');
     firstMovieElement.textContent = `First movie: ${firstMovie}`;
@@ -35,4 +35,4 @@ function displayMovies() {
 }
 
 // Call the displayMovies function to display the movies.
-displayMovies();
+displayMovies()
