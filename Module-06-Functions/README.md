@@ -16,8 +16,16 @@ When we call the function, we pass two arguments: "Emily" and 28.
 The argument "Emily" is assigned to the parameter name, and 28 is assigned to age.
 The function then uses these values to create and log the introduction message.
 
+
 ## Naming a function
-Start with a verb: Since functions do something, it's a good practice to start their names with a verb.
+**Start with a verb:** Since functions do something, it's a good practice to start their names with a verb and make sure the name is **descriptive.**
 ```JavaScript
 function visitNewCountry() { ... }
+```
+
+
+## Arrow Functions (ES6)
+Arrow functions are a concise way to write functions in JavaScript. Perfect for short functions and passing them as arguments.
+```JavaScript
+const packSuitcase = (item) => `Packing ${item} in the suitcase.`;
 ```
