@@ -1,5 +1,5 @@
 ## Parameters
-Parameters define what a function expects to receive, while arguments are the actual values given to the function when it's called.
+Parameters define what a function expects to receive(placeholder), while arguments are the actual values given to the function when it's called.
 ```JavaScript
 // Function definition with two parameters: 'name' and 'age'
 function introduceUser(name, age) {
