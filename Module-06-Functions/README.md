@@ -13,11 +13,9 @@ const lunchMenu = function() {
     return "I'm going to eat pizza for lunch";
 }
 //Arrow function
-const dinnerMenu = () => {
-    return "I'm going to eat a burger for dinner";
-} //hoisting does not work on arrow functions
+const dinnerMenu = (food) => `I'm going to eat a ${food} for dinner`; //hoisting does not work on arrow functions
 
-console.log( dinnerMenu() );
+console.log( dinnerMenu("burger") );
 ```
 
 ## Parameters
