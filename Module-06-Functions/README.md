@@ -58,17 +58,17 @@ console.log(doubleLike());
 console.log(doubleLike());
  ```
 
- An example of counting down from a certain number using a closure:
+ An example of dynamically counting down from a certain number using a closure:
  ```JavaScript
- function countdown() {
-  let countFromNum = 11;
+function countdown(startingNumber, step) {
+  let countFromNum = startingNumber + step;
   return function decrease() {
-    countFromNum -= 1;
+    countFromNum -= step;
     return countFromNum;
   }
 }
 
-const countingDown = countdown();
+const countingDown = countdown(20, 5);
 
 console.log(countingDown());
 console.log(countingDown());
