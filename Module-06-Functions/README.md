@@ -10,7 +10,7 @@ function breakfastMenu() {
 
 //Anonymous function/Function expression
 const lunchMenu = function() {
-    return "I'm going to eat pizza for lunch";
+    return "I'm going to eat pizza for lunch"; //Not hoisted
 }
 //Arrow function
 const dinnerMenu = (food) => `I'm going to eat a ${food} for dinner`; //hoisting does not work on arrow functions
