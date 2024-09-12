@@ -18,6 +18,8 @@ The function then uses these values to create and log the introduction message.
 
 So a parameter is as if you're setting a variable and waiting for a value, and the value would be the argument. E.g declaring function = functionName(input)...calling the function = functionName('hello')
 
+The first argument will always be passed to the first parameter and the second argument will always be passed to the second parameter(They need to correspond). If there is 1 parameter, and you pass 2 arguments, JS will show the first argument only and ignore the second because there is not second corresponding parameter.
+
 
 ## Naming a function
 **Start with a verb:** Since functions do something, it's a good practice to start their names with a verb and make sure the name is **descriptive.**
