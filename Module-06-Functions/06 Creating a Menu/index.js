@@ -8,13 +8,15 @@ const dishes = [
     { name: "Garlic Bread", type: "starter" }
 ];
 
+document.getElementById("menu").innerHTML =
 // TODO: Filter out only the dessert dishes
-
-
-// TODO: Convert dessert names to uppercase
-
+dishes
+    .filter(dish => dish.type === "dessert")
+    // TODO: Convert dessert names to uppercase
+    .map(dessert => `<li>${dessert.name.toUpperCase()}</li>`)
 
 // TODO: Display the dessert names in uppercase on the webpage
+.join('');
 
 
 
