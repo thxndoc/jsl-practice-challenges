@@ -29,7 +29,20 @@ The first argument will always be passed to the first parameter and the second a
 ```JavaScript
 function visitNewCountry() { ... }
 ```
-
+```JavaScript
+// create a todo
+function createTodo() {}
+// update a todo
+function updateTodo() {}
+// check off todo
+function checkCompleteTodo() {}
+// delete todo
+function deleteTodo() {}
+// getting a todo
+function getTodo() {}
+// getting user
+function getUser() {}
+```
 
 ## Arrow Functions (ES6)
 Arrow functions are a concise way to write functions in JavaScript. Perfect for short functions and passing them as arguments.
