@@ -57,3 +57,20 @@ console.log(doubleLike());
 console.log(doubleLike());
 console.log(doubleLike());
  ```
+
+ An example of counting down from a certain number using a closure:
+ ```JavaScript
+ function countdown() {
+  let countFromNum = 11;
+  return function decrease() {
+    countFromNum -= 1;
+    return countFromNum;
+  }
+}
+
+const countingDown = countdown();
+
+console.log(countingDown());
+console.log(countingDown());
+console.log(countingDown());
+```
