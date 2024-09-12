@@ -18,3 +18,4 @@ function displayOrder(event) {
 
 // Adding event listener to the "Submit Order" button
 // Challenge: Add an event listener to the button with the id "submitOrder" and call the displayOrder function when clicked
+document.getElementById("submitOrder").addEventListener('click',displayOrder);
