@@ -1,3 +1,6 @@
+# Functions
+- To make a function reusable, it needs parameters.
+
 ## Parameters
 Parameters define what a function expects to receive(placeholder), while arguments are the actual values given to the function when it's called.
 ```JavaScript
@@ -43,7 +46,7 @@ const packSuitcase = (item) => `Packing ${item} in the suitcase.`;
  ```JavaScript
  function handleLikePost(step) {
   let likeCount = 0;
-  return function addLike() {
+  return function addLike() { //This function does all the work
     likeCount += step;    
     return likeCount;
   }
@@ -62,7 +65,7 @@ console.log(doubleLike());
  ```JavaScript
 function countdown(startingNumber, step) {
   let countFromNum = startingNumber + step;
-  return function decrease() {
+  return function decrease() { //This function does all the work
     countFromNum -= step;
     return countFromNum;
   }
@@ -73,4 +76,36 @@ const countingDown = countdown(20, 5);
 console.log(countingDown());
 console.log(countingDown());
 console.log(countingDown());
+```
+
+
+## Default Parameters
+
+```JavaScript
+function convertTemperature(celsius, decimalPlaces = 1) {
+    // celsius to fahrenheit
+//   decimalPlaces = decimalPlaces || 1;
+  const fahrenheit = celsius * 1.8 + 32;
+  return Number(fahrenheit.toFixed(decimalPlaces));
+}
+
+console.log(convertTemperature(21, 0));
+```
+
+
+## Anonymous functions
+- You can only use an anonymous function once
+
+
+## Function expression
+- The function keyword can be used to define a function inside an expression.
+- You are making the variable a function (same as 1 = 1)
+
+```JavaScript
+const getRectArea = function (width, height) {
+  return width * height;
+};
+
+console.log(getRectArea(3, 4));
+// Expected output: 12
 ```
