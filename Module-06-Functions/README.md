@@ -33,6 +33,9 @@ function visitNewCountry() { ... }
 
 ## Arrow Functions (ES6)
 Arrow functions are a concise way to write functions in JavaScript. Perfect for short functions and passing them as arguments.
+  - Anything after the arrow is the body of the function.
+  - If you have 1 parameter, there is no need for brackets: add brackets for 2 or more parameters.
+  - No need for **return** keyword in arrrow function because return is implicit.
 ```JavaScript
 const packSuitcase = (item) => `Packing ${item} in the suitcase.`;
 ```
