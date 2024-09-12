@@ -1,6 +1,25 @@
 # Functions
 - To make a function reusable, it needs parameters.
 
+## Types of functions
+```JavaScript
+//Function declaration
+function breakfastMenu() {
+    return "I'm going to scrambled eggs for breakfast";
+} //hoisting works here
+
+//Anonymous function/Function expression
+const lunchMenu = function() {
+    return "I'm going to eat pizza for lunch";
+}
+//Arrow function
+const dinnerMenu = () => {
+    return "I'm going to eat a burger for dinner";
+} //hoisting does not work on arrow functions
+
+console.log( dinnerMenu() );
+```
+
 ## Parameters
 Parameters define what a function expects to receive(placeholder), while arguments are the actual values given to the function when it's called.
 ```JavaScript
