@@ -16,6 +16,8 @@ When we call the function, we pass two arguments: "Emily" and 28.
 The argument "Emily" is assigned to the parameter name, and 28 is assigned to age.
 The function then uses these values to create and log the introduction message.
 
+So a parameter is as if you're setting a variable and waiting for a value, and the value would be the argument. E.g declaring function = functionName(input)...calling the function = functionName('hello')
+
 
 ## Naming a function
 **Start with a verb:** Since functions do something, it's a good practice to start their names with a verb and make sure the name is **descriptive.**
