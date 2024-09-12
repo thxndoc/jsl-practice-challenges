@@ -36,7 +36,7 @@ const packSuitcase = (item) => `Packing ${item} in the suitcase.`;
 
 
 ## Closures
- - Closures allow us to remember values.
+ - Closures allow us to remember values, helping you keep track of data over time.
  - Closures are a property of JavaScript functions
  - Call function in different scope than where function was original defined
 
@@ -47,7 +47,7 @@ const packSuitcase = (item) => `Packing ${item} in the suitcase.`;
     likeCount += step;    
     return likeCount;
   }
-  
+
   console.log('like count:', likeCount);
 }
 
