@@ -29,7 +29,7 @@ let bankAccount = {
   // 3. **Display Balance Method**: Shows the current balance.
   displayBalance: function() {
     // Display the current balance with a message like "Current balance: R(balance)".
-    console.log(`Current balance: ${this.balance}`)
+    console.log(`Current balance: R${this.balance}`)
   }
 };
 
