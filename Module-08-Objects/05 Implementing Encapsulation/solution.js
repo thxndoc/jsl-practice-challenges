@@ -1,7 +1,8 @@
 class Customer {
   constructor(name, accountNumber, initialBalance) {
     this.name = name; // Initialize the customer's name.
-    let _accountNumber = accountNumber; // Private field for account number (only accessible within the class)
+    let _accountNumber = accountNumber; 
+    
     this.balance = initialBalance; // Initialize the account balance.
 
     this.deposit = function (amount) {
