@@ -1,4 +1,4 @@
-let bankAccount = {
+let bankAccount = { //you can modify the properties even if its a const
   holderName: "Jamie",
   accountNumber: 789012,
   balance: 500,
