@@ -43,7 +43,7 @@ class SavingsAccount extends BankAccount {
   applyInterest() {
     const interest = this.balance * this.interestRate;
     this.deposit(interest); //adding property?
-    console.log(`Interest applied: R${interest}`);
+    console.log(`Interest applied: R${interest}. New balance is R${this.balance}`);
   }
 }
 
