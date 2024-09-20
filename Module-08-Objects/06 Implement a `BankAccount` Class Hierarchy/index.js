@@ -18,7 +18,7 @@ class BankAccount {
     // Display an error message if there are insufficient funds.
     if (amount <= this.balance) {
       this.balance -= amount;
-      console.log("Withdrawn R" + amount);
+      console.log("Withdrew R" + amount);
     } else {
       console.log("Insufficient funds");
     }
@@ -59,7 +59,7 @@ class CheckingAccount extends BankAccount {
   withdrawWithOverdraft(amount) {
     if (amount <= this.balance + this.overdraftLimit) {
       this.balance -= amount;
-      console.log(`Withdrawn R${amount}`);
+      console.log(`Withdrew R${amount}. Remaining balance is R${this.balance}`);
     } else {
       console.log("Overdraft limit exceeded");
     }
@@ -72,4 +72,4 @@ const checkingAccount = new CheckingAccount("CHK456", 500, 100);
 
 // Test methods specific to SavingsAccount and CheckingAccount.
 savingsAccount.applyInterest(); // For SavingsAccount: Apply interest
-checkingAccount.withdrawWithOverdraft(700); // For CheckingAccount: Withdraw with overdraft
+checkingAccount.withdrawWithOverdraft(500); // For CheckingAccount: Withdraw with overdraft
