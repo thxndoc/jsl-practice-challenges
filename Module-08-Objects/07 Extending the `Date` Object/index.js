@@ -74,3 +74,4 @@ Date.prototype.daysUntilNextInterestDate = function() {
 // Usage
 const today = new Date();
 console.log(`Days until next interest date: ${today.daysUntilNextInterestDate()} days.`);
+
