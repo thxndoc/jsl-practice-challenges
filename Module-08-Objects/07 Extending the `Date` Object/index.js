@@ -6,20 +6,20 @@ class BankAccount {
 
   deposit(amount) {
     this.balance += amount;
-    console.log("Deposited R" + amount);
+    console.log(`Deposited R${amount}`);
   }
 
   withdraw(amount) {
     if (amount <= this.balance) {
       this.balance -= amount;
-      console.log("Withdrawn R" + amount);
+      console.log(`Withdrew R${amount}. Available balance: R${this.balance}.`);
     } else {
       console.log("Insufficient funds");
     }
   }
 
   displayBalance() {
-    console.log("Current balance: R" + this.balance);
+    console.log(`Current balance: R${this.balance}`);
   }
 }
 
@@ -32,7 +32,7 @@ class SavingsAccount extends BankAccount {
   applyInterest() {
     const interest = this.balance * this.interestRate;
     this.deposit(interest);
-    console.log("Interest applied: R" + interest);
+    console.log(`Interest applied: R${interest}. New balance: R${this.balance}`);
   }
 }
 
@@ -62,6 +62,13 @@ checkingAccount.withdrawWithOverdraft(700);
 Date.prototype.daysUntilNextInterestDate = function() {
   // Implement the method to calculate and return the number of days until the next interest credit date for a savings account.
   // You can assume that interest is credited on the 1st of the next month.
+  const today = new Date();
+  const nextInterestDate = new Date(today.getFullYear(),today.getMonth() + 1, 1);
+
+  const diffTime = Math.abs(nextInterestDate - today);
+  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+  return diffDays;
 };
 
 // Usage
