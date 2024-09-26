@@ -22,4 +22,19 @@ const customIterator = {
   console.log(customIterator.next())
   console.log(customIterator.next())
   console.log(customIterator.next())
-  
+
+//Creating a Simple Generator Function
+  function* fibonacciGenerator() {
+    let [prev, curr] = [0, 1];
+    while (true) { // Infinite loop
+      yield curr;
+      [prev, curr] = [curr, prev + curr]; // Update the values
+    }
+  }
+
+//To use the generator, create an instance and call `next()` to get Fibonacci numbers:
+const fib = fibonacciGenerator();
+console.log(fib.next().value); // 1
+console.log(fib.next().value); // 1
+console.log(fib.next().value); // 2
+// and so on
