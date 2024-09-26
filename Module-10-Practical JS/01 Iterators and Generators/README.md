@@ -104,7 +104,7 @@ console.log(fib.next().value); // 1 (first Fibonacci number)
 console.log(fib.next().value); // 1 (second Fibonacci number)
 console.log(fib.next().value); // 2 (third Fibonacci number)
 ```
-**Summary**<br>
+**In summary**<br>
 * **Generator function:** A special function that gives values one at a time using `yield`.
 * **Fibonacci sequence:** Each number is the sum of the two before it (1, 1, 2, 3, 5, 8, etc.).
 * **How it works:** Every time you call `.next()`, the generator pauses, updates the Fibonacci numbers, and gives you the next number in the sequence.
