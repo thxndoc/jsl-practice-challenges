@@ -28,3 +28,21 @@ const customIterator = {
 
 In this iterator, the if statement helps decide what happens each time we call the next() method.<br>
 
+**Step-by-step breakdown of the `if` statement:**<br>
+1. `if (this.current <= this.last)`
+    * The if statement checks whether the value of `this.current` is less than or equal to `this.last`.
+    * `this.current` & `this.last` refers to the `current` & `last` properties inside the iterator object.
+    * It checks: "Is the current value of `this.current` smaller than or equal to `this.last`?"
+
+2. What if the iteration is `true`?
+    * If this.current is 1, 2, 3, 4, or 5, then the condition `this.current <= 5` will be **true**.
+    * When the condition is **true**, the code inside the curly braces `{}` runs.
+    * Code inside the curly braces:
+```JavaScript
+return { value: this.count++, done: false };
+```
+This returns an object with the current value of `current` and increments `current` by 1 (because of `this.current++`), and it also sets `done` to `false` to indicate there are more values left.<br>
+
+So, if `current = 1`, it returns `{ value: 1, done: false }` and then increases `current` to 2 for the next time.<br>
+
+3. What if the condition is `false`?
